@@ -1,5 +1,6 @@
+
 html {
-    font-size: 3px;
+    font-size: 16px;
 }
 
 body {
@@ -7,23 +8,40 @@ body {
 }
 
 header {
-    /**position: relative;  **/
     display: flex;
     justify-content: center;
     align-items: center;
     height: 3rem;
     border-bottom: .1rem solid black;
+    font-size: 1.5rem;
+    
 }
-
+h2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 3.5rem;
+    font-size: 1.5rem;
+    padding-left: 5%;
+    padding-top: 3%;
+}
 ul {
     flex-grow: 1;
 }
 
 li {
-    border-bottom: .1rem solid gray;
+    border: .1rem ;
+    background-color: rgb(235, 233, 233);
+    font-size: 1.3rem;
     padding: 1rem;
+    margin: 2rem;
+    border-radius: 15%;
 }
 
-.Scroll_menu {
-    
+img {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 4rem;
+    width: 100%;
 }
