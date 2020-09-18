@@ -1,0 +1,29 @@
+html {
+    font-size: 3px;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    /**position: relative;  **/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    border-bottom: .1rem solid black;
+}
+
+ul {
+    flex-grow: 1;
+}
+
+li {
+    border-bottom: .1rem solid gray;
+    padding: 1rem;
+}
+
+.Scroll_menu {
+    
+}
