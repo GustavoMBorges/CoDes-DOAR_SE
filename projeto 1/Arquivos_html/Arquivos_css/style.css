@@ -1,6 +1,9 @@
 
 html {
     font-size: 16px;
+    font-family: "Transicional", "Humanist Slab", "Verdana",  sans-serif; 
+    font-family: 'PT Serif','IBM Plex Serif', serif;
+    font-family: 'PT Sans','Raleway', sans-serif;
 }
 
 body {
